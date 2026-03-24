@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="contacto.html" class="logo">
+            <img src="./Imagenes/Nota.jpg" alt="Imagen del Instituto de Música" >
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="cursodecanto.html">Curso de Canto</a></li>
+                <li><a href="contacto.html">Anotate Acá</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulario de Contacto</h1>
+        <p>Registrate llenando los datos del siguiente Formulario:</p>
+        <form action="#">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="1190807060">
+
+            <label for="curso-interes">Curso de Interés:</label>
+            <input type="text" id="curso-interes" name="curso-interes" placeholder="Curso sobre el que deseas consultar">
+
+            <div class="cheks">
+                <p>¿Cómo te enteraste del instituto?</p>
+                <label><input type="radio" name="referencia" value="internet" required> Internet</label>
+                <label><input type="radio" name="referencia" value="amigos"> Amigos</label>
+                <label><input type="radio" name="referencia" value="otros"> Otros</label>
+
+                <p>¿Qué te interesa?</p>
+                <label><input type="checkbox" name="interes" value="teoria"> Canto</label>
+                <label><input type="checkbox" name="interes" value="instrumentos"> Instrumentos</label>
+                <label><input type="checkbox" name="interes" value="composicion"> Composición</label>
+            </div>
+
+            <label for="horario">Eligí un horario preferido:</label>
+            <input list="horarios" id="horario" name="horario" placeholder="Seleccioná un horario">
+            <datalist id="horarios">
+                <option value="Mañana"></option>
+                <option value="Tarde"></option>
+                <option value="Noche"></option>
+            </datalist>
+
+            <label for="mensaje">Mensaje o Consulta:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Dejanos tu mensaje acá..."></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <section class="info-contacto">
+            <h2>Información de Contacto</h2>
+            <p>Dirección: Av. Cabildo 1919, Mar del Plata, Argentina</p>
+            <p>Teléfono: 1145098223</p>
+            <p>Horario de atención: Lunes a Viernes, de 9:00hs a 18:00hs</p>
+        </section>
+
+        <section class="redes-sociales">
+            <h2>Síguenos en redes sociales</h2>
+            <a href="https://www.facebook.com/InstitutoNacionalDeLaMusicaArgentina/?locale=es_LA" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/institutocantodavoz/" target="_blank">Instagram</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Logan Casals, Licenciado en Artes Musicales. Estudiante de Desarrollo Web de la Universidad de Hurlingham. 2024. Todos los derechos reservados@</a></p>
+    </footer>
+
+</body>
+</html>

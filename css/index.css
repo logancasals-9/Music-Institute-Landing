@@ -1,0 +1,379 @@
+header {
+    background: #000000;
+    height: 75px;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    margin-left: 50px; 
+}
+
+
+nav ul li a {
+    color: rgb(121, 0, 161);
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+
+nav ul li a:hover{
+    color:white;
+    transition: color 0,3s ease;
+}
+
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.logo {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+
+}    
+
+
+section {
+    max-height: 100%;
+    max-width: 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(167, 167, 167);
+    margin:0;
+}
+
+
+#presentacion {
+    margin:0;
+    height: 90vh;
+    width: 100%;
+    text-align:center;
+    background-image: url("../Imagenes/Presentacion.jpg");
+    background-size: cover;
+    background-position: top center;
+    padding: 0;
+    display: flex;
+}
+
+
+#presentacion h2{
+    font-size: 100px;
+    margin-top: 20px;
+    color: #b079b0;
+}
+
+
+#nosotros{
+    margin:0;
+    margin-top: 0;
+    background: linear-gradient(360deg, #2d005a, #ff5ff7);
+    background-image: url("../Imagenes/Nosotros.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#nosotros p{
+    text-align: center;
+    margin-top: 158px;
+    margin-bottom: 158px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.9;
+    font-size: 22px;
+    color: #fbd2ff;
+    background: linear-gradient(100deg, #4A148C, #000000);
+}
+
+
+#cursos {
+    margin:0;
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(360deg, #7200e5, #0a0a0a);
+    display: flex;
+    flex-wrap: wrap;
+     
+  
+}
+
+
+#cursos h1{
+    text-align: center;
+    font-size: 100px;
+    color: #fbd2ff;
+    margin-top: -10px;
+}
+
+
+#cursos h2{
+    margin-top: -80px;
+    text-align: center;
+    font-size: 26px;
+    color: #dd8ee4;
+    justify-content: center;
+}
+
+
+.courses {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 40px;
+    margin-top: 10px;
+}
+
+
+.Canto h2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+
+.Guitarra h2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 40px;
+    margin-right: 2px;
+}
+    
+.Produccion h2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 40px;
+    margin-right: 2px;
+}
+
+
+.Canto img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgb(201, 36, 238);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+}
+
+
+.Guitarra img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgb(201, 36, 238);
+    transition: transform 0.3s ease-in-out;       
+    display: flex;
+}
+
+
+.Produccion img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px  rgb(201, 36, 238);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+}
+
+
+.Canto img:hover {
+    transform: scale(1.1);
+}    
+
+
+.Guitarra img:hover {
+    transform: scale(1.1);
+}
+
+
+.Produccion img:hover {
+    transform: scale(1.1);
+}
+
+
+#contacto {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    background-image: url(./Imagenes/Contacto.jpeg);
+    width: 100%;
+    background-size: cover;
+}
+
+
+.left-side, .right-side {
+  flex: 1;
+  margin: 10px;
+  margin-left: -1px;
+}
+
+
+.left-side iframe {
+  width: 100%;
+  height: 500px ;
+  margin-top: -20px ;
+}
+
+
+.right-side video{
+    width: 96%;
+    height: 460px ;
+    margin-bottom: 70px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+.left-side h2{
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: -10px;
+
+
+}
+.right-side h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+  
+  }
+#contenido {
+    background: linear-gradient(360deg, #7200e5, #0a0a0a);
+}
+
+#contenido h2 {
+    color:#ff5ff7;
+    text-align: left;
+    margin-left: 250px;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#contenido iframe{
+    margin-left: 150px;
+    width: 750px;
+    height: 350px;
+}
+
+#contenido h3 {
+    color:#ff5ff7;
+    text-align: left;
+    margin-left: 390px;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#contenido audio{
+    margin-left: 365px;
+    margin-bottom: 30px;
+}
+
+
+aside {
+    background-color: #6b0089;
+    padding: 20px;
+    margin: 20px 0;
+    margin-top: -550px;
+    border: 1px solid #7428b3;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    float: right;
+    width: 25%; 
+    max-width: 300px;
+    text-align: center;
+}
+    
+
+aside h2 {
+    color: #e5a6fd;
+    font-size: 1.3em;
+}
+
+
+aside ul {
+    list-style:none;
+    line-height: 40px;
+    padding: 0;
+}
+
+
+aside ul li a {    
+    text-decoration:underline;
+    color: #000000;
+}
+
+
+aside img{
+    width: 270px;
+    height: 150px;
+}
+
+
+footer {
+    background: #000000;
+    color: rgb(121, 0, 161);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+
+.conteiner{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

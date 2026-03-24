@@ -1,0 +1,224 @@
+header {
+    background: #000000;
+    height: 75px;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.9;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #2d005a, #ff5ff7);
+    overflow-x: hidden;
+}
+
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+
+nav ul li a {
+    color: rgb(121, 0, 161); 
+    text-decoration: none; 
+    font-size: 20px; 
+}
+
+
+nav ul li a:hover{
+    color:white;
+    transition: color 0,3s ease;
+}
+
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.logo {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+#bienvenidos h2{
+    font-size: 40px;
+    text-align: center;
+    color: #d036a7;
+    background-color: #230036;
+    margin-top: 100px;
+}
+
+
+#bienvenidos p{
+    font-size: 20px;
+    text-align: center;
+    color: #ff5ff7;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+
+#informacion h2{
+    font-size: 40px;
+    text-align: center;
+    color: #d036a7;
+    background-color: #230036;
+    margin-top: 100px;
+}
+
+
+table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 80%;
+    border: 10px solid  #230036;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+table th, table td {
+    padding: 20px;
+    text-align: center;
+    border: 5px solid  #230036;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #280039;
+}
+
+
+table th {
+    background-color: #5b028b;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+table td {
+    background-color: #9326ce;
+}
+
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+}
+
+
+.left-side ol  {
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 0;
+    margin: 90 auto;
+    text-align: left;
+    width: fit-content;
+}
+
+
+.center-side {
+    margin-top: 30px;
+    margin-left: -10px;
+    color: #ffffff;
+    padding: 0;
+    margin: 90 auto;
+    text-align: left;
+    width: fit-content;
+}
+
+
+.right-side {
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+  
+#precio h2{
+    font-size: 40px;
+    text-align: center;
+    color: #d036a7;
+    background-color: #230036;
+    margin-top: 100px;
+}
+
+
+#estudiantes h2{
+    font-size: 40px;
+    text-align: center;
+    color: #d036a7;
+    background-color: #230036;
+    margin-top: 100px;
+}
+
+
+.gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}    
+
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+figcaption{
+    color: #2d005a;
+    font-size: large;
+    margin-right: 0;
+}
+
+
+footer {
+    background: #000000;
+    color: rgb(121, 0, 161);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+
+.conteiner{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

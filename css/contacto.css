@@ -1,0 +1,195 @@
+header {
+    background: #000000;
+    height: 75px;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #2d005a, #ff5ff7);
+    overflow-x: hidden;
+}
+
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+
+nav ul li a {
+    color: rgb(121, 0, 161); 
+    text-decoration: none; 
+    font-size: 20px; 
+}
+
+
+nav ul li a:hover{
+    color:white;
+    transition: color 0,3s ease;
+}
+
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.logo {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #d036a7;
+    background-color: #230036;
+    margin-top: 100px;
+}
+
+
+p{
+    text-align: center;
+    color: #d361b5;
+}
+
+
+form {
+    background-color: rgb(232, 105, 246);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+form label {
+    display: block;
+    margin: 10px 0 10px;
+    font-weight: bold;
+}
+
+
+form input, form textarea, form button, form datalist {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: -10px;
+}
+
+
+.cheks {
+    display: flex;               
+    flex-direction:column;       
+    align-items: flex-start;      
+}
+
+
+.cheks label {
+    display: flex;                
+    align-items: center;          
+    margin-bottom: 10px;          
+}
+
+
+.cheks input {
+    margin-right: 10px;
+    margin-bottom: 0px;           
+}
+
+
+.cheks p {
+    margin-bottom: 10px;           
+    color: #333;                  
+}
+
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+form button:hover {
+    background-color: #555;
+}
+
+
+.info-contacto, .redes-sociales {
+    margin-top: 40px;
+    text-align: center;
+    color: #2d005a;
+}
+
+
+.info-contacto p{
+    margin-top: 40px;
+    text-align: center;
+    color: #2d005a;
+}
+
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.redes-sociales a:hover {
+    color: #ccc;
+}
+
+
+footer {
+    background: #000000;
+    color: rgb(121, 0, 161);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+
+.conteiner{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
