@@ -21,7 +21,6 @@ Puedes ver el proyecto funcionando en tiempo real a través de Netlify:
 * **Componentes Interactivos:** Efectos de *hover* y transiciones suaves que mejoran la dinámica visual.
 
 ## 📸 Capturas de Pantalla
-> **Nota:** Recordá subir tus capturas a una carpeta llamada `img` dentro de este repositorio para que se vean aquí.
 
 ### Vista Principal (Home)
 ![Home Page](./img/home.png)
